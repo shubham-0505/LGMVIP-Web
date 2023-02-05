@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.calculator{
+    background-color:rgb(54, 69, 79);
+    padding:20px;
+    border-radius:12px;
+}
+.calculator .heading{
+    font-family:"Poppins";
+    text-align:center;
+    color:aqua;
+}
+.calculator form input{
+    font-size:18px;
+    color:aqua;
+    width:55px;
+    height:55px;
+    outline:0;
+    border:0;
+    border-radius:12px;
+    margin:4px;
+    background:transparent;
+    background-image:grey;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    cursor:pointer;
+}
+ form .calciDisplay{
+    /* background-color:white; */
+    display:flex;
+    margin:20px 0;
+    justify-content: flex-end;
+}
+form .calciDisplay input{
+    text-align:right;
+    font-family:"Consolas";
+    color:black;
+    font-size:35px;
+    flex:1;
+    margin:2px;
+    background-color:aliceblue;
+}
+form input.equalTo{
+    color:black;
+    background-color:rgb(255, 148, 77);
+    width:121px;
+    font-weight:bold;
+}
