@@ -1,0 +1,108 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background: #C04848; 
+    background: -webkit-linear-gradient(to right, #480048, #C04848);  
+    background: linear-gradient(to right, #480048, #C04848); 
+    /* background-repeat: no-repeat; */
+}
+.container1{
+    background-color:white;
+    height:32rem;
+    width:32rem;
+    margin-left:1rem;
+    margin-top:2rem;
+    border:none;
+    border-radius:10px;
+    float:left;
+}
+.form .title{
+    font-family:"Poppins";
+    font-size:1.8rem;
+    text-align:center;
+    margin-top:1rem;
+}
+.container1 .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+    border:none;
+}
+
+.container1 .form input{
+    font-size:1.1rem;
+    width: 80%;
+    padding: 0.8rem;
+    border:1px solid grey;
+    border-radius:8px;
+}
+.container1 .form .button{
+    color:#ffffff;
+    background-color:#0AA89E;
+    text-transform:uppercase;
+    font-family:"Poppins";
+    font-weight:bold;
+    letter-spacing:0.1rem;
+    transition:0.4s;
+}
+.container1 .form .button:hover{
+    cursor:pointer;
+    background-color:rgb(6, 121, 113);
+}
+.info{
+    width:50%;
+    text-align: left;
+    font-family:"Hind";
+    font-size:1.2rem;
+    font-weight:500;
+    color:whitesmoke;
+    margin:auto;
+    margin-top:2rem;
+    border:none;
+    border-radius:10px;
+    float:right;
+}
+.info:hover{
+    cursor:pointer;
+}
+@media only screen and (max-width: 700px) and (min-width: 400px){
+    .body{
+        background-attachment: fixed;
+    }
+    .container1{
+        background-color:white;
+        height:30rem;
+        width:22rem;
+    }
+    .form .title{
+        font-family:"Poppins";
+        font-size:1.4rem;
+        text-align:center;
+        margin-top:1rem;
+    }
+    .container1 .form input{
+        font-size:1rem;
+        width: 80%;
+        padding: 0.8rem;
+    }
+    .info{
+        width:100%;
+        text-align:left;
+        margin-left:2rem;
+        float:left;
+    }
+}
+@media only screen and (max-width: 1070px) and (min-width: 701px){
+    .info{
+        font-size:1.2rem;
+        width:100%;
+        text-align:left;
+        margin-left:2rem;
+        float:left;
+    }
+}
+
+
